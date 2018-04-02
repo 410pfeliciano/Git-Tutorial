@@ -40,7 +40,7 @@ if ~nChannels error('nChannels is not specified and par/xml file is not present'
 
 ver = version; ver = str2num(ver(1));
 if ver<7 outtype ='double';end
-
+ffff
 PrecString =[intype '=>' outtype];
 fileinfo = dir(FileName);
 % get file size, and calculate the number of samples per channel
